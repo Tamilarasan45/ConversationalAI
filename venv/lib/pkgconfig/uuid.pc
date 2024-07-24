@@ -1,0 +1,11 @@
+prefix=/workspaces/ConversationalAI/venv
+exec_prefix=/workspaces/ConversationalAI/venv
+libdir=/workspaces/ConversationalAI/venv/lib
+includedir=/workspaces/ConversationalAI/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

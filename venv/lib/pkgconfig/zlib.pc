@@ -1,0 +1,13 @@
+prefix=/workspaces/ConversationalAI/venv
+exec_prefix=/workspaces/ConversationalAI/venv
+libdir=/workspaces/ConversationalAI/venv/lib
+sharedlibdir=/workspaces/ConversationalAI/venv/lib
+includedir=/workspaces/ConversationalAI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
